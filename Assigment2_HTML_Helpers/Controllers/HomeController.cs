@@ -14,6 +14,13 @@ namespace Assigment2_HTML_Helpers.Controllers
             var age1 = new DateTime(1990, 01, 01).ToAge();
             var age2 = new DateTime(1987, 05, 07).ToAge();
             var age3 = new DateTime(1975, 10, 10).ToAge();
+
+
+            var dig1 = "abc123".ToDigitsOnly();
+            var dig2 = "z1x2c3v4".ToDigitsOnly();
+            var dig3 = "#$ss223%^".ToDigitsOnly();
+
+
             return View();
         }
 
